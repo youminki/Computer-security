@@ -1,6 +1,7 @@
 # substitution cipher
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = "fcpevqkzgmtrayonujdlwhbxsi"
+# key = "fcpevqkzgmtrayonujdlwhbxsi"
+key = "qwertyuiopasdfghjklzxcvbnm"
 
 def encrypt(text, key ):
     result = " "
@@ -20,8 +21,8 @@ print(encrypt(msg, key))
 # 주석추가 버전
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz' # 알파벳 소문자를 나타내는 문자열입니다.
-key = "fcpevqkzgmtrayonujdlwhbxsi" # 치환 암호에 사용할 치환 키(key)입니다.
-
+# key = "fcpevqkzgmtrayonujdlwhbxsi" # 치환 암호에 사용할 치환 키(key)입니다.
+key = "qwertyuiopasdfghjklzxcvbnm"
 # 주어진 키를 사용하여 평문을 암호화하는 함수입니다.
 def encrypt(text, key):
     result = " "  # 암호화된 결과를 저장할 빈 문자열을 초기화합니다.
